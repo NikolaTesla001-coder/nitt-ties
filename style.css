@@ -1,0 +1,104 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+header { display: flex; justify-content: space-between; padding: 15px 30px; background: #ff6b81; color: white; }
+nav a { margin: 0 10px; color: white; text-decoration: none; }
+.hero { text-align: center; margin: 60px auto; }
+.btn { background: #ff6b81; color: white; padding-top: 10px ;padding-left:10px;padding-right:10px ;text-decoration: none; border-radius: 5px ;margin-top:10px;  }
+.card { background: white; padding: 15px; border-radius: 8px; margin: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.cards { display: flex; flex-wrap: wrap; justify-content: center; }
+@media(max-width: 600px) {
+  nav { display: flex; flex-direction: column; align-items: center; }
+}
+.hero {
+  text-align: center;
+  margin: 120px auto;  
+}
+.hero p {
+  margin-bottom: 30px; 
+}
+/* Signup Page Cozy Style */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: #fff0f3;
+  padding: 20px;
+}
+
+#signupForm {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+
+#signupForm input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+#signupForm input:focus {
+  border-color: #ff6b81;
+  box-shadow: 0 0 5px rgba(255, 107, 129, 0.3);
+}
+
+#signupForm button {
+  padding: 12px;
+  background: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#signupForm button:hover {
+  background: #ff4757;
+}
+
+#error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+#contact input{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;    
+}
+#contact button{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;    
+}
+
+#contact textarea{
+    width:500px;
+    height:400px;
+}
